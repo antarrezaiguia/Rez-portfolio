@@ -114,3 +114,37 @@ h1 {color: #64ffda; /* light blue heading */}
   color: #ccd6f6;
   margin: 0 0 20px 0;
 }
+/* file: css/style.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #233554;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #64ffda;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #64ffda;
+}
