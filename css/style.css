@@ -203,3 +203,48 @@ h1 {color: #64ffda; /* light blue heading */}
   margin: 0;
   font-size: 15px;
 }
+/* file: css/style.css */
+
+.hse-content {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.hse-content h1 {
+  color: #64ffda;
+  margin-bottom: 15px;
+}
+
+.hse-intro {
+  color: #ccd6f6;
+  line-height: 1.7;
+  font-size: 16px;
+  max-width: 750px;
+  margin-bottom: 40px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: #112240;
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.skill-card h3 {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+.skill-card p {
+  color: #ccd6f6;
+  line-height: 1.6;
+  font-size: 14px;
+  margin: 0;
+}
