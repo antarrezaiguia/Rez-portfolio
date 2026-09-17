@@ -142,9 +142,17 @@ h1 {color: #64ffda; /* light blue heading */}
 .nav-links a {
   color: #ccd6f6;
   text-decoration: none;
-  font-size: 14px;
-}
+  font-size: 14px;}
 
 .nav-links a:hover {
-  color: #64ffda;
-}
+  color: #64ffda;}
+/* file: css/style.css */
+.about-content {max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;}
+
+.about-content h1 {color: #64ffda;margin-bottom: 25px;}
+.about-content p {color: #ccd6f6;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 16px;}
