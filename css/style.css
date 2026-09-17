@@ -156,3 +156,50 @@ h1 {color: #64ffda; /* light blue heading */}
   line-height: 1.7;
   margin-bottom: 20px;
   font-size: 16px;}
+  /* file: css/style.css */
+
+.experience-content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.experience-content h1 {
+  color: #64ffda;
+  margin-bottom: 30px;
+}
+
+.job-card {
+  background-color: #112240;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.job-header h3 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px;
+}
+
+.job-date {
+  color: #64ffda;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.job-card p {
+  color: #ccd6f6;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 15px;
+}
