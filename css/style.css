@@ -450,5 +450,23 @@ h1 {color: #64ffda; /* light blue heading */}
   font-size: 12px;
   padding: 4px 12px;
   border-radius: 12px;
-  white-space: nowrap;
+  white-space: nowrap;}
+  /* file: css/style.css */
+
+.cv-content {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
 }
+
+.cv-content h1 {
+  color: #64ffda;
+  margin-bottom: 15px;
+}
+
+.cv-intro {
+  color: #ccd6f6;
+  line-height: 1.7;
+  font-size: 16px;
+  margin-bottom: 25px;}
