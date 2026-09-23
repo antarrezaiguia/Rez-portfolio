@@ -9,6 +9,7 @@
 </head>
 <body>
 
+  <!-- Navigation Bar -->
   <nav class="navbar">
     <div class="nav-logo">Antar Rezaiguia</div>
     <ul class="nav-links">
@@ -24,12 +25,28 @@
     </ul>
   </nav>
 
+  <!-- CV Header, Actions & Direct PDF Preview -->
   <section class="cv-top">
     <h1>Curriculum Vitae</h1>
-    <p class="cv-intro">A summary of my HSE, fire safety, and data analytics background — or download the full PDF version below.</p>
-    <a href="assets/cv/Antar-Rezaiguia-CV.pdf" class="btn-primary" download>Download CV (PDF)</a>
+    <p class="cv-intro">Preview my full CV below, open it in a separate tab, or download a PDF copy directly.</p>
+    
+    <!-- Action Buttons -->
+    <div class="cv-buttons">
+      <a href="assets/cv/Antar-Rezaiguia-CV.pdf" target="_blank" class="btn-primary">View in New Tab</a>
+      <a href="assets/cv/Antar-Rezaiguia-CV.pdf" download="Antar-Rezaiguia-CV.pdf" class="btn-secondary">Download CV (PDF)</a>
+    </div>
+
+    <!-- Embedded PDF Viewer -->
+    <div class="cv-preview-container">
+      <iframe src="assets/cv/Antar-Rezaiguia-CV.pdf#toolbar=1" class="cv-iframe">
+        <p>Your browser does not support embedded PDFs. 
+           <a href="assets/cv/Antar-Rezaiguia-CV.pdf" target="_blank">Click here to view the file</a>.
+        </p>
+      </iframe>
+    </div>
   </section>
 
+  <!-- Detailed Text Summary -->
   <section class="cv-summary">
 
     <h2>Professional Summary</h2>
