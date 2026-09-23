@@ -470,3 +470,51 @@ h1 {color: #64ffda; /* light blue heading */}
   line-height: 1.7;
   font-size: 16px;
   margin-bottom: 25px;}
+  /* file: css/style.css */
+
+.cv-top {
+  max-width: 700px;
+  margin: 60px auto 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.cv-top h1 {
+  color: #64ffda;
+  margin-bottom: 15px;
+}
+
+.cv-intro {
+  color: #ccd6f6;
+  line-height: 1.7;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.cv-summary {
+  max-width: 800px;
+  margin: 20px auto 60px auto;
+  padding: 0 20px;
+}
+
+.cv-summary h2 {
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-bottom: 1px solid #233554;
+  padding-bottom: 10px;
+}
+
+.cv-summary p {
+  color: #ccd6f6;
+  line-height: 1.7;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.edu-title {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0 0 4px 0;
+}
