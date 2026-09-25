@@ -2,44 +2,25 @@
 body {
   background-color: #0a192f;   /* dark navy background */
   color: #ffffff;               /* white text */
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
   padding: 40px;}
 h1 {color: #64ffda; /* light blue heading */}
 /* file: css/style.css */
 
-.hero {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  margin-top: 40px;
-}
+.hero {display: flex;align-items: center;gap: 30px;
+  margin-top: 40px;}
 
-.hero-photo {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-}
+.hero-photo {width: 180px;height: 180px;
+  object-fit: cover;border-radius: 50%;}
 
-.btn-primary {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 24px;
-  background-color: #64ffda;
-  color: #0a192f;
-  text-decoration: none;
-  border-radius: 4px;
-  font-weight: bold;
-}
-/* file: css/style.css */
+.btn-primary {display: inline-block;margin-top: 15px;
+  padding: 10px 24px;background-color: #64ffda;
+  color: #0a192f;text-decoration: none;
+  border-radius: 4px;font-weight: bold;}
 
-.highlights {
-  display: flex;
-  gap: 20px;
-  margin-top: 50px;
-  flex-wrap: wrap;
-}
+.highlights {display: flex;gap: 20px;
+  margin-top: 50px;flex-wrap: wrap;}
 
 .highlight-card {
   background-color: #112240;
@@ -47,20 +28,17 @@ h1 {color: #64ffda; /* light blue heading */}
   border-radius: 8px;
   text-align: center;
   flex: 1;
-  min-width: 140px;
-}
+  min-width: 140px;}
 
 .highlight-card h3 {
   color: #64ffda;
   font-size: 28px;
-  margin: 0 0 8px 0;
-}
+  margin: 0 0 8px 0;}
 
 .highlight-card p {
   margin: 0;
   font-size: 14px;
-  color: #ccd6f6;
-}
+  color: #ccd6f6;}
 /* file: css/style.css */
 
 .expertise-links {
@@ -332,13 +310,11 @@ h1 {color: #64ffda; /* light blue heading */}
 .projects-content {
   max-width: 900px;
   margin: 50px auto;
-  padding: 0 20px;
-}
+  padding: 0 20px;}
 
 .projects-content h1 {
   color: #64ffda;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px;}
 
 .projects-content h2 {
   color: #ffffff;
@@ -346,40 +322,34 @@ h1 {color: #64ffda; /* light blue heading */}
   margin-bottom: 20px;
   font-size: 20px;
   border-bottom: 1px solid #233554;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px;}
 
 .projects-intro {
   color: #ccd6f6;
   line-height: 1.7;
   font-size: 16px;
-  max-width: 700px;
-}
+  max-width: 700px;}
 
 .project-subtitle {
   color: #64ffda;
   font-size: 14px;
-  margin: -8px 0 15px 0;
-}
+  margin: -8px 0 15px 0;}
 
 .featured-project {
-  border: 1px solid #233554;
-}
+  border: 1px solid #233554;}
 
 .tag-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 15px;
-}
+  margin-top: 15px;}
 
 .tag {
   background-color: #0a192f;
   color: #64ffda;
   font-size: 12px;
   padding: 5px 12px;
-  border-radius: 12px;
-}
+  border-radius: 12px;}
 
 .see-also {
   color: #8892b0;
@@ -551,17 +521,16 @@ h1 {color: #64ffda; /* light blue heading */}
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  border: 1px solid #ddd;
-}
+  border: 1px solid #ddd;}
 
-.cv-iframe {
-  width: 100%;
-  height: 750px;
-  border: none;
-  display: block;}
+.cv-iframe {width: 100%;height: 750px;
+  border: none;display: block;}
+@media (max-width: 768px) {.cv-iframe {height: 480px;}}
 
-@media (max-width: 768px) {
-  .cv-iframe {
-    height: 480px;
-  }
-}
+.highlight-card,.skill-card,.job-card,.project-card,
+.cert-card {box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;}
+.highlight-card:hover,.skill-card:hover,
+.job-card:hover,.project-card:hover,
+.cert-card:hover {transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);}
