@@ -534,3 +534,85 @@ h1 {color: #64ffda; /* light blue heading */}
 .job-card:hover,.project-card:hover,
 .cert-card:hover {transform: translateY(-3px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);}
+  /* file: css/style.css */
+
+.contact-location {color: #8892b0;font-size: 14px;
+  margin-bottom: 20px !important;}
+
+.contact-links {display: flex;
+  justify-content: center;gap: 15px;flex-wrap: wrap;}
+  /* Project Button Styling */
+.project-btn-wrapper {margin-top: 25px;}
+
+.project-btn {display: inline-block;
+  background-color: #64ffda;
+  color: #0a192f;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 10px 22px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.25s ease;}
+.project-btn:hover {background-color: #4cdbbb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(100, 255, 218, 0.3);}
+  /* Contact Page Styling */
+.contact-page {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.contact-card {
+  background: #112240;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 50px 40px;
+  max-width: 650px;
+  width: 100%;
+  text-align: center;}
+.contact-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #64ffda;
+  font-weight: 600;
+  margin-bottom: 15px;}
+
+.contact-card h2 {font-size: 2.2rem;color: #ffffff;margin-bottom: 15px;}
+.contact-desc {color: #8892b0;
+  font-size: 1.1rem;line-height: 1.6;margin-bottom: 15px;}
+
+.contact-location {color: #ccd6f6;
+  font-size: 0.95rem;margin-bottom: 35px;}
+
+.contact-links {display: flex;
+  justify-content: center;
+  flex-wrap: wrap;gap: 15px;}
+
+/* Primary Button (Email) */
+.btn-primary {display: inline-block;
+  background-color: #64ffda;
+  color: #0a192f;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 12px 26px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.25s ease;}
+
+.btn-primary:hover {background-color: #4cdbbb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(100, 255, 218, 0.3);}
+/* Secondary Buttons (LinkedIn, TikTok) */
+.btn-secondary {display: inline-block;
+  background-color: transparent;color: #ccd6f6;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: 500;font-size: 0.95rem;padding: 12px 24px;
+  border-radius: 4px;text-decoration: none;transition: all 0.25s ease;}
+
+.btn-secondary:hover {color: #64ffda;border-color: #64ffda;
+  transform: translateY(-2px);background-color: rgba(100, 255, 218, 0.05);}
