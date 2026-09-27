@@ -616,3 +616,5 @@ h1 {color: #64ffda; /* light blue heading */}
 
 .btn-secondary:hover {color: #64ffda;border-color: #64ffda;
   transform: translateY(-2px);background-color: rgba(100, 255, 218, 0.05);}
+  @media (max-width: 600px) {.hero {flex-direction: column;text-align: center;}
+  .nav-links {justify-content: center;}}
